@@ -1,13 +1,13 @@
-package edu.expandedmind.keepmeuptodate.ui.slideshow
+package edu.expandedmind.keepmeuptodate.ui.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SlideshowViewModel : ViewModel() {
+class SettingsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is slideshow Fragment"
+        value = "Here we will display settings"
     }
     val text: LiveData<String> = _text
 }
